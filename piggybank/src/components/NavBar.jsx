@@ -6,22 +6,22 @@ export default function NavBar({active}) {
             <ul className="flex gap-12 items-end text-slate-400 text-sm">
                 <li>
                     <a href="#">
-                        <h1 className="text-2xl font-bold text-slate-100">PiggyBank</h1>
+                        <h1 className="text-2xl font-bold text-slate-100">GameSave</h1>
                     </a>
                 </li>
                 <li>
-                    <Link className={active=="despesas" && "text-slate-300"} href="/despesas">
-                        despesas
+                    <Link className={active=="metas" && "text-slate-300"} href="/metas">
+                        metas
                     </Link>
                 </li>
                 <li>
-                    <Link className={active=="contas" && "text-slate-300"} href="/contas">
-                        contas
+                    <Link className={active=="jogos" && "text-slate-300"} href="/jogos">
+                        jogos
                     </Link>
                 </li>
                 <li>
-                    <Link className={active=="categorias" && "text-slate-300"} href="/categorias">
-                        categorias
+                    <Link className={active=="cadastros" && "text-slate-300"} href="/cadastros">
+                        cadastros
                     </Link>
                 </li>
             </ul>
